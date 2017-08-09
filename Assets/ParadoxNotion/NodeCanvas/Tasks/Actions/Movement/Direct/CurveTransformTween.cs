@@ -6,7 +6,7 @@ using UnityEngine;
 namespace NodeCanvas.Tasks.Actions{
 
 	[Name("Curve Tween")]
-	[Category("Movement/Direct")]
+	[Category("Tween")]
 	public class CurveTransformTween : ActionTask<Transform> {
 
 		public enum TransformMode{

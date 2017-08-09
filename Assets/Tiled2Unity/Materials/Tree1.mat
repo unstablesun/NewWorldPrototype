@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Tree1
   m_Shader: {fileID: 4800000, guid: b9ed975f1d59041ff9af22197ac927ea, type: 3}
-  m_ShaderKeywords: CURVATURE_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 771ba13c49ede1c4aa29f260ba2d7e02, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveTex:
@@ -93,7 +93,7 @@ Material:
     - _ReflectionScrollingX: 0.25
     - _ReflectionScrollingY: 0.25
     - _ReflectionStrength: 0
-    - _Specular: 0.5
+    - _Specular: 0.2
     - _TransmissionDensity: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
