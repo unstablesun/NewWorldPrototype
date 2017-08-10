@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2017-08-09 4:16:24 PM-->
+<!--Last exported: 2017-08-10 10:13:54 AM-->
 <Tiled2Unity version="1.0.12.3">
   <AssignMaterial mesh="LevelTwo_mesh_0001" material="terrain" />
   <AssignMaterial mesh="LevelTwo_mesh_0002" material="terrain" />
@@ -20,10 +20,20 @@
     <GameObject name="Object Layer 1" x="0" y="0" z="0">
       <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
       <Property name="LavaTrigger" value="100" />
-      <GameObject name="LavaArea1" x="338.667" y="-275.333" rotation="0" layer="">
+      <GameObject name="LavaArea1" x="338.667" y="-275.333" rotation="0" layer="LavaArea">
         <Property name="IsTrigger" value="true" />
-        <RectangleObjectComponent tmx-object-id="6" tmx-object-name="LavaArea1" tmx-object-type="" tmx-object-x="338.667" tmx-object-y="275.333" tmx-object-width="327.333" tmx-object-height="252" tmx-object-rotation="0" />
+        <RectangleObjectComponent tmx-object-id="6" tmx-object-name="LavaArea1" tmx-object-type="LavaArea" tmx-object-x="338.667" tmx-object-y="275.333" tmx-object-width="327.333" tmx-object-height="252" tmx-object-rotation="0" />
         <BoxCollider2D width="327.333" height="252" />
+      </GameObject>
+      <GameObject name="Trap1" x="602.667" y="-612.667" rotation="0" tag="LevelTriggers" layer="TriggerZones">
+        <RectangleObjectComponent tmx-object-id="7" tmx-object-name="Trap1" tmx-object-type="TriggerZones" tmx-object-x="602.667" tmx-object-y="612.667" tmx-object-width="142" tmx-object-height="170.667" tmx-object-rotation="0" />
+        <BoxCollider2D width="142" height="170.667" />
+      </GameObject>
+      <GameObject name="PLine1" x="412" y="-791.333" rotation="0" layer="PLines">
+        <PolylineObjectComponent tmx-object-id="8" tmx-object-name="PLine1" tmx-object-type="PLines" tmx-object-x="412" tmx-object-y="791.333" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <EdgeCollider2D>
+          <Points>0,0 139.333,-1.33333 206.667,-18</Points>
+        </EdgeCollider2D>
       </GameObject>
     </GameObject>
   </Prefab>

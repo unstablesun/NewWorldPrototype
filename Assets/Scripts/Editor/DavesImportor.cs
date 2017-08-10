@@ -33,7 +33,7 @@ class CustomImporterAddComponent : Tiled2Unity.ICustomTiledImporter
 		foreach (var box in boxColliders2D) {
 
 			Debug.Log("setting box collider istrigger = true for " + box.name);
-			box.enabled = true;
+			//box.enabled = true;
 			box.isTrigger = true;
 
 
