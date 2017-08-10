@@ -290,7 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a7dbb6bbdf4ffb46ab7dd87ba8191e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boundGraphSerialization: '{"version":2.6,"type":"NodeCanvas.StateMachines.FSM","translation":{"x":-4801.0,"y":-4997.0},"nodes":[{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"vector":{"_value":{"y":-2.0}},"delay":{},"duration":{"_value":2.0},"relative":true,"$type":"NodeCanvas.Tasks.Actions.TweenPosition"}]},"_position":{"x":5383.0,"y":5125.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"vector":{"_value":{"y":2.0}},"delay":{},"duration":{"_value":2.0},"relative":true,"$type":"NodeCanvas.Tasks.Actions.TweenPosition"}]},"_repeatStateActions":true,"_position":{"x":5231.0,"y":5447.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"9"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+  boundGraphSerialization: '{"version":2.6,"type":"NodeCanvas.StateMachines.FSM","translation":{"x":-4801.0,"y":-4997.0},"nodes":[{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"vector":{"_value":{"y":-2.0}},"delay":{},"duration":{"_value":2.0},"relative":true,"$type":"NodeCanvas.Tasks.Actions.TweenPosition"}]},"_position":{"x":5383.0,"y":5125.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"vector":{"_value":{"y":2.0}},"delay":{},"duration":{"_value":2.0},"relative":true,"$type":"NodeCanvas.Tasks.Actions.TweenPosition"}]},"_position":{"x":5231.0,"y":5447.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"9"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
     Blackboard","_variables":{}}}'
   boundGraphObjectReferences: []
   enableAction: 0
@@ -493,7 +493,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 472537522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 352, y: -26.04, z: 0}
+  m_LocalPosition: {x: -40, y: -23, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 251407146}
@@ -915,11 +915,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4280083818573610, guid: 72323e00111d83b4081a8e67bd094a3d, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4280083818573610, guid: 72323e00111d83b4081a8e67bd094a3d, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 61968796680477754, guid: 72323e00111d83b4081a8e67bd094a3d,
         type: 2}
